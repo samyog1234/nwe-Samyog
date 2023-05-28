@@ -1,0 +1,290 @@
+
+/* Css for body, h1, h2, h3, p, ul, li etc. */
+body, h1, h2, h3, p, ul, li {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* Css for body part */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+}
+
+/* Css for container */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+/* Css of header */
+header {
+  text-align: center;
+  background-color: #125fb8;
+  color: #ffffff;
+  padding: 10px;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap; 
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  font-size: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.logo-image {
+  border-radius: 80px 5px;
+  width: 100px; 
+  height: auto; 
+  margin-right: 100px;
+  margin-left: 100px;
+  margin-bottom: 10px;
+}
+
+.menu {
+  font-size:xx-large;
+  width: 1200px;
+  border-radius: 30px 30px;
+  background-color: rgb(11, 167, 167);
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+.menu li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 22px;
+  transition: color 0.3s;
+}
+
+.menu li a:hover {
+  color: #d9d9d9;
+}
+
+.hero {
+  background-color: #30b821;
+  padding: 15px ;
+  text-align: center;
+}
+
+.image-container {
+  display: flex;
+  padding: 5px;
+  justify-content: space-evenly;
+}
+
+.hero h2 {
+  font-size: 36px;
+  margin-bottom: 4px;
+}
+
+.hero p {
+  font-size: 15px;
+  margin-bottom: 0px;
+}
+
+/* Css for button  */
+#read-more-btn {
+  font-size: 15px;
+  text-align: center;
+  display: inline-block;
+  padding: 5px 30px;
+  background-color: #F3B000;
+  color: #6154B5;
+  text-decoration:line-through;
+  border-radius: 0px 30px;
+  transition: background-color 0.9s;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#content{
+  padding-left: 40px;
+  text-align: center;
+}
+
+.hide {
+  display: none;
+}
+
+#extra-content{
+  text-align: justify;
+  font-size: 15px;
+}
+
+.read_more-btn:hover {
+  background-color: #125fb8;
+  padding: 10px;
+}
+
+.Limited {
+  background-color: #f9546D;
+  padding: 60px 0;
+}
+
+.Limited h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.Limited p {
+  margin-bottom: 30px;
+}
+
+/* Css for table */
+.table-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Table's border and width */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.table thead th {
+  background-color: #6154B5;
+  color: #fff;
+  padding: 12px;
+  text-align: left;
+}
+
+.table tbody td {
+  background-color: #107e1e;
+  color: #000000;
+  padding: 12px;
+  border-bottom: 2px solid #000206;
+}
+
+.table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.table tbody tr:nth-child(even) td {
+  background-color: #107e1e;
+}
+
+.table tbody td:first-child {
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+
+.table tbody td:last-child {
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+.About-us{
+  background-color: rgb(12, 152, 199);
+}
+
+.container1 {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10px;
+  font-size: 20px;
+}
+
+/* Css for all the content in footer */
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+footer p {
+  margin-bottom: 0;
+}
+
+.fotter-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fotter-logo a {
+  margin: 15px;
+  color: darkred;
+  text-decoration: none;
+}
+
+.fotter-logo a i {
+  font-size: 30px;
+}
+
+/* Css if user click Darkmode */
+
+body.dark-mode {
+  background-color: #333;
+  color: #f5f5f5;
+}
+
+header.dark-mode {
+  background-color: #666;
+}
+
+header.dark-mode #dark-mode-label {
+  color: #f5f5f5;
+}
+
+.menu.dark-mode li a {
+  color: #f5f5f5;
+}
+
+.hero.dark-mode {
+  background-color: #1d2b53;
+}
+
+.hero.dark-mode h2 {
+  color: #f5f5f5;
+}
+
+.hero.dark-mode p {
+  color: #f5f5f5;
+}
+
+.Limited.dark-mode {
+  background-color: #6f6374;
+}
+
+.Limited.dark-mode h3 {
+  color: #f5f5f5;
+}
+
+.Limited.dark-mode p {
+  color: #f5f5f5;
+}
+
+.About-us.dark-mode {
+  background-color: #423838;
+  color: #f5f5f5;
+}
+
+footer.dark-mode {
+  background-color: #222;
+  color: #f5f5f5;
+}
+
+.fotter-logo.dark-mode a {
+  color: darkorange;
+}
+
+#dark-mode-label{
+  font-size: 20px;
+  color: #cd9300;
+  padding-left: 10px;
+}

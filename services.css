@@ -1,0 +1,54 @@
+*{
+    background-color: black;
+    color: aliceblue;
+
+}
+
+body {
+    border: 12px solid white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6;
+  }
+
+h1 {
+    border: 10px solid red;
+    text-align: center;
+    color: green;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+ol {
+    border: 8px solid yellow;
+    padding-left: 20px;
+}
+
+li {
+    border: 5px solid darkgreen;
+    margin-bottom: 15px;
+}
+
+.main {
+    text-align: justify;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+b {
+    border: 2px solid red;
+    color: #007bff;
+}
+
+p {
+    border: 5px solid darkgreen;
+    text-align: center;
+}
+
+h2{
+    border: 10px solid red;
+    color: green;
+    text-align: center;
+    font-size: 50px;
+}
